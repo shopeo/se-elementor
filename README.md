@@ -1,2 +1,2 @@
-# SHOPEO Blocks
+# SHOPEO Elementor
 
