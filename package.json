@@ -1,0 +1,17 @@
+{
+  "name": "se-elementor",
+  "version": "0.0.1",
+  "description": "SHOPEO Elementor",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shopeo/se-elementor.git"
+  },
+  "author": "SHOPEO",
+  "license": "GPL-2.0-or-later",
+  "bugs": {
+    "url": "https://github.com/shopeo/se-elementor/issues"
+  },
+  "homepage": "https://shopeo.cn"
+}
