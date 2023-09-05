@@ -4,16 +4,21 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit046b70f11aa72889776451255117cf8d
+class ComposerStaticInit0308a6cc6b78ddd0b8acedf2f0364ad3
 {
     public static $prefixLengthsPsr4 = array (
         'S' => 
         array (
+            'Shopeo\\SeElementor\\Widgets\\' => 27,
             'Shopeo\\SeElementor\\' => 19,
         ),
     );
 
     public static $prefixDirsPsr4 = array (
+        'Shopeo\\SeElementor\\Widgets\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/src/Widgets',
+        ),
         'Shopeo\\SeElementor\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src',
@@ -27,9 +32,9 @@ class ComposerStaticInit046b70f11aa72889776451255117cf8d
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit046b70f11aa72889776451255117cf8d::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit046b70f11aa72889776451255117cf8d::$prefixDirsPsr4;
-            $loader->classMap = ComposerStaticInit046b70f11aa72889776451255117cf8d::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit0308a6cc6b78ddd0b8acedf2f0364ad3::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit0308a6cc6b78ddd0b8acedf2f0364ad3::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInit0308a6cc6b78ddd0b8acedf2f0364ad3::$classMap;
 
         }, null, ClassLoader::class);
     }

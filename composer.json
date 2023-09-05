@@ -1,19 +1,20 @@
 {
-  "name": "shopeo/se-elementor",
-  "description": "SHOPEO Elementor plugin",
-  "type": "project",
-  "license": "MIT",
-  "autoload": {
-	"psr-4": {
-	  "Shopeo\\SeElementor\\": "src/"
-	}
-  },
-  "authors": [
-	{
-	  "name": "shopeo",
-	  "email": "hello@shopeo.cn"
-	}
-  ],
-  "minimum-stability": "dev",
-  "require": {}
+	"name": "shopeo/se-elementor",
+	"description": "SHOPEO Elementor plugin",
+	"type": "project",
+	"license": "MIT",
+	"autoload": {
+		"psr-4": {
+			"Shopeo\\SeElementor\\": "src/",
+			"Shopeo\\SeElementor\\Widgets\\": "src/Widgets/"
+		}
+	},
+	"authors": [
+		{
+			"name": "shopeo",
+			"email": "hello@shopeo.cn"
+		}
+	],
+	"minimum-stability": "dev",
+	"require": {}
 }
